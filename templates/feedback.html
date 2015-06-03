@@ -1,0 +1,17 @@
+﻿<div class="container">
+  <h1>test</h1>
+  <ul class="comments-tree">
+    <li class="comment__field" data-ng-repeat="comment in comments">
+      <header class="comment__head cf">
+        <strong ng-switch="!!comment.url">
+          <a class="comment__author" ng-switch-when="true" href="{{comment.url}}">{{comment.author}}</a>
+          <span class="comment__author" ng-switch-default>{{comment.author}}</span>
+        </strong>
+        <date class="comment__date">{{comment.date}}</date>
+      </header>
+      <section class="comment__content">
+        {{comment.text}}
+      </section>
+    </li>
+  </ul>
+</div>
