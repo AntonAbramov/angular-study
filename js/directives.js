@@ -1,7 +1,7 @@
 myApp.directive('siteHeader', function () {
   return {
     restrict: 'A',
-    templateUrl: '/js/views/header.html',
+    templateUrl: '/templates/header.html',
     controller: function ($scope) {
       $scope.menuItems = [
         {'href': 'iphone', 'title': 'Ремонт iPhone', 'text': 'iPhone', selected: ''},
@@ -14,7 +14,7 @@ myApp.directive('siteHeader', function () {
 }).directive('pricesTable', function () {
   return {
     restrict: 'E',
-    templateUrl: '/js/views/prices-table.html',
+    templateUrl: '/templates/prices-table.html',
     controller: function ($scope) {
     }
   }

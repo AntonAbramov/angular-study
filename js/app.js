@@ -158,34 +158,29 @@ myApp.config(['$routeProvider', 'MetaTagsProvider', '$locationProvider', functio
 
 
   MetaTagsProvider.when('/', {
-    title: "Ремонт Apple iPhone/Ipad в Киеве | Iphone 3/4/5/6",
+    title: "Ремонт Apple техники: iPhone iPad MacBook iMac",
     description: "Срочный ремонт Apple iPhone в Киеве. Замена стекла от 200 грн, дисплея от 300 грн, ремонт после воды.",
     robots: "index, follow",
     keywords: "Ремонт iPhone iPad iPod Macbook",
-    fb_title: 'My title',
-    fb_site_name: 'My site name',
-    fb_url: 'www.blablabla.blabla',
-    fb_description: 'Cool website',
-    fb_type: 'Facebook type',
     fb_image: '/img/office.jpg?v=1423413609176'
   })
     .when('/iphone', {
-      title: "Ремонт iPhone 3g/3gs/4/4s/5/5s/6 оригинальные запчасти.",
+      title: "Ремонт iPhone 3g/3gs/4/4s/5/5s/6 оригинальные запчасти",
       description: "Делаем ремонт всех моделей iPhone, быстро и качественно, Киев ремонт iPhone 4",
       robots: "index, follow",
       keywords: "Ремонт iPhone 3g/3gs/4/4s/5/5s/6"
     })
     .when('/ipad-remont', {
-      title: "Ремонт iPad в Киеве | ipad сервис центр.",
-      description: "Профессиональный ремонт iPad в Киеве! Качественный сервис айпадов всех моделей, доступные цены!",
+      title: "Ремонт iPad, iPad Mini, iPad Retina iPad Air оригинальные запчасти",
+      description: "Профессиональный ремонт iPad в Киеве! Качественный ремонт айпадов всех моделей, доступные цены, хорошее качество!",
       robots: "index, follow",
-      keywords: "ремонт ipad (айпад) киев"
+      keywords: "ремонт ipad (айпад), ремонт ipad mini, ipad retina Киев"
     })
     .when('/macbook-remont', {
-      title: "Ремонт MacBook Киев - сервис-центр Apple",
+      title: "Ремонт MacBook Pro, MacBook Air, iMac",
       description: "Ремонт MacBook в Киеве! Быстрый и Качественный сервис макбуков всех моделей, низкие цены!",
       robots: "index, follow",
-      keywords: "ремонт macbook (макбук) киев, Service Apple, макбука, macbook"
+      keywords: "ремонт macbook (макбук) киев "
     })
     .when('/about/warranty', {
       title: "Гарантия 2 года от Service-Iphone.com.ua ",
@@ -200,109 +195,109 @@ myApp.config(['$routeProvider', 'MetaTagsProvider', '$locationProvider', functio
       keywords: "ремонт iPhone iPad iPod Macbook"
     })
     .when('/remont-iphone3g', {
-      title: "Ремонт iPhone 3G в Киеве",
+      title: "Ремонт iPhone 3G",
       description: "Наш Сервис сделает качественный ремонт iPhone 3g в Киеве с гарантией. Так же делаем ремонт всех моделей iphone.",
       robots: "index, follow",
-      keywords: "ремонт iphone 3g киев, айфон 3g ремонт, iphone3g ремонт"
+      keywords: "ремонт iphone 3gs киев, айфон 3g ремонт, iphone 3g ремонт"
     })
     .when('/remont-iphone4', {
-      title: "Ремонт iPhone 4 в Киеве",
-      description: "Service-iphone сделает качественный ремонт iphone 4 в Киеве с гарантией. Замена стекла, дисплея, кнопки.",
+      title: "Ремонт iPhone 4",
+      description: "Service-iphone сделает качественный ремонт iphone 4 в Киеве с гарантией до 2 лет. Замена стекла, дисплея, кнопки.",
       robots: "index, follow",
       keywords: "Ремонт iPhone 4"
     })
     .when('/remont-iphone4s', {
-      title: "Ремонт iPhone 4s в Киеве",
+      title: "Ремонт iPhone 4s",
       description: "Service-iphone сделает качественный ремонт iphone 4s в Киеве с гарантией не менее 2 лет. Замена батареи, аккумулятора, кнопки.",
       robots: "index, follow",
       keywords: "Ремонт iPhone 4s"
     })
     .when('/remont-iphone5', {
-      title: "Ремонт iPhone 5 в Киеве",
-      description: "Быстрый ремонт iPhone5 в городе Киев. Диагностика iPhone 5/5s/6/6+",
+      title: "Ремонт iPhone 5",
+      description: "Быстрый ремонт iPhone5 в городе Киев. Диагностика iPhone 5/5s/6/6+ бессплатно!",
       robots: "index, follow",
       keywords: "Ремонт iPhone 5"
     })
     .when('/remont-iphone-5c', {
-      title: "Ремонт iPhone 5c в Киеве",
-      description: "Service-iphone сделает быстро и качественно ремонт вашего телефона iphone 5c в Киеве.",
+      title: "Ремонт iPhone 5c",
+      description: "Service-iphone сделает быстро и качественно ремонт вашего iphone 5c в Киеве в тот же день!.",
       robots: "index, follow",
       keywords: "Ремонт iPhone 5c"
     })
     .when('/remont-iphone-5s', {
-      title: "Ремонт iPhone 5s в Киеве",
+      title: "Ремонт iPhone 5s ",
       description: "Киев ремонт и сервис iPhone 5s. Цены на iphone 5s указаны на странице. Цены на ремонт iphone 5s",
       robots: "index, follow",
       keywords: "Ремонт iPhone 5s"
     })
     .when('/remont-iphone-6', {
-      title: "Ремонт iPhone 6 в Киеве",
+      title: "Ремонт iPhone 6",
       description: "Требуется ремонт iphone 6? мы вам поможем, сделаем быстро и качественно ремонт iphone 4/4s/5/5s/6/6+",
       robots: "index, follow",
       keywords: "Ремонт iPhone 6"
     })
     .when('/remont-iphone-6plus', {
-      title: "Ремонт iPhone 6+ в Киеве",
+      title: "Ремонт iPhone 6+ ",
       description: "Iphone 6+ ремонт/замента стекла/дисплея/джойстика/аккумулятора. Замена стекла/батареи/дисплея.",
       robots: "index, follow",
       keywords: "Ремонт iPhone 6+"
     })
     .when('/remont-ipad1', {
-      title: "Ремонт iPad 1 в Киеве",
+      title: "Ремонт iPad 1",
       description: "Срочный ремонт iPad в городе киеве. Даем гарантию 2 года, ремонт в тот же день!",
       robots: "index, follow",
       keywords: "Ремонт iPad 1"
     })
     .when('/remont-ipad2', {
-      title: "Ремонт iPad 2 в Киеве",
+      title: "Ремонт iPad 2",
       description: "Срочный ремонт ipad 2 быстро и качественно, используем только оригинальные детали. Даем гарантию 2 года",
       robots: "index, follow",
       keywords: "Ремонт iPad 2"
     })
     .when('/remont-ipad3', {
-      title: "Ремонт iPad 3 в Киеве",
+      title: "Ремонт iPad 3",
       description: "Service-iphone делает ремонт быстро и качественно с гарантией 2 года, мы починим ваш ipad 3!",
       robots: "index, follow",
       keywords: "Ремонт iPad 3"
     })
     .when('/remont-ipad4', {
-      title: "Ремонт iPad 4 в Киеве",
+      title: "Ремонт iPad 4",
       description: "Цены на ремонт iPad 4 в городе Киеве, Service-iPhone заменит стекло/тачскрин/батарею/wifi и другие детали вашего дивайса!",
       robots: "index, follow",
       keywords: "Ремонт iPad 4"
     })
     .when('/remont-ipad-air', {
-      title: "Ремонт iPad air в Киеве",
+      title: "Ремонт iPad air",
       description: "Самый лучший сервис по ремонту iPad air в городе Киеве - Service-iPhone, цены на ремонт вашего ipad air.",
       robots: "index, follow",
       keywords: "Ремонт iPad air"
     })
     .when('/remont-ipad-mini', {
-      title: "Ремонт iPad mini в Киеве",
+      title: "Ремонт iPad mini",
       description: "Ремонт iPad mini в Киеве. Профессиональный ремонт iPad mini с гарантией до 2х лет. Только original запчасти.",
       robots: "index, follow",
       keywords: "Ремонт iPad mini"
     })
     .when('/remont-ipad-mini2', {
-      title: "Ремонт iPad mini2 в Киеве",
+      title: "Ремонт iPad mini2",
       description: "Ремонт iPad mini 2 в Киеве. Профессиональный ремонт iPad mini с гарантией до 2х лет. Цены на ремонт ipad mini 2.",
       robots: "index, follow",
       keywords: "Ремонт iPad mini2"
     })
     .when('/remont-imac', {
-      title: "Ремонт iMac в Киеве",
+      title: "Ремонт iMac",
       description: "Ремонт iMac в Киеве. Профессиональный ремонт iMac с гарантией до 2х лет. Только original запчасти.",
       robots: "index, follow",
-      keywords: "Ремонт imac в Киеве"
+      keywords: "Ремонт imac"
     })
     .when('/remont-macbook-pro', {
-      title: "Ремонт MacBook Pro в Киеве",
+      title: "Ремонт MacBook Pro",
       description: "Ремонт вашего macbook pro в городе киеве с гарантией до 2 лет, сделает наш Service-Iphone центр!",
       robots: "index, follow",
-      keywords: "Ремонт MacBook Pro в Киеве"
+      keywords: "Ремонт MacBook Pro"
     })
     .when('/remont-macbook-air', {
-      title: "Ремонт MacBook Air в Киеве",
+      title: "Ремонт MacBook Air",
       description: "Качественный ремонт macbook air в городе киеве с гарантией до 2 лет, сделает наш Service-Iphone центр!",
       robots: "index, follow",
       keywords: "Ремонт MacBook Air"
@@ -363,8 +358,8 @@ myApp.config(['$routeProvider', 'MetaTagsProvider', '$locationProvider', functio
       keywords: "iphone не работает вибро, iphone ремонт вибро "
     })
     .when('/ne-rabotaet-zvuk-na-iphone', {
-      title: "Не работает звук iphone | Service-Iphone в Киеве",
-      description: "Не работает звук iphone | Service-Iphone в Киеве",
+      title: "Не работает звук iphone | Service-Iphone",
+      description: "Не работает звук iphone | Service-Iphone",
       robots: "index, follow",
       keywords: "ремонт звука iphone киев"
     })

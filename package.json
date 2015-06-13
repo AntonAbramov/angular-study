@@ -1,21 +1,11 @@
 {
-  "name": "test",
-  "version": "0.0.0",
-  "description": "Project ===========",
+  "name": "service-iphone",
+  "version": "0.0.1",
+  "description": "repair phones",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/AntonAbramov/China_phone.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AntonAbramov/China_phone/issues"
-  },
-  "homepage": "https://github.com/AntonAbramov/China_phone",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-asset-cachebuster": "^0.3.1",
@@ -23,6 +13,11 @@
     "grunt-contrib-compass": "^0.8.0",
     "grunt-contrib-csslint": "^0.4.0",
     "grunt-contrib-cssmin": "^0.11.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0"
   }
 }

@@ -1,5 +1,4 @@
-angular.module('app')
-  .controller('DeviceController', ['$scope', function ($scope) {
+myApp.controller('DeviceController', ['$scope', function ($scope) {
     $scope.menuIphone = [
       {
         'href': '/remont-iphone3g',

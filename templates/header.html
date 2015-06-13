@@ -1,8 +1,10 @@
 <header class="header">
   <div class="container pt10 pb10">
-    <div class="site-logo text-center col-md-2 col-xs-12 col-sm-4 mb0 mt0">
-      <a href="/"><img height="40" src="/img/logo.png" alt="Service-Iphone ремонт техники Apple iphone ipad macbook" /></a>
-      <span class="site-logo__name"></span>
+    <div itemscope itemtype="http://schema.org/Organization" class="site-logo text-center col-md-2 col-xs-12 col-sm-4">
+      <a itemprop="url" class="site-logo__link" href="/" title="Service-iPhone - ремонт техники Apple.">
+        <img itemprop="logo" class="site-logo__img" src="/img/logo.png" alt="Service-Iphone ремонт техники Apple iphone ipad macbook" />
+        Service-iPhone
+      </a>
     </div>
     <nav class="top-navigation col-lg-4 col-md-5 col-sm-8 col-xs-12">
       <a ng-repeat="item in menuItems" ng-class="{'is-active' : item.selected}" class="top-navigation__link" href="{{item.href}}"><span

@@ -8,7 +8,7 @@
   <div class="devices">
     <div ng-repeat="item in menuIpad" class="devices__item">
       <a href="{{item.href}}" title="Ремонт {{item.text}} в Киеве" class="devices__link">
-        <span class="devices__img"><img class="devices__img--preview" src="{{item.imgSrc}}" alt="{{item.imgAlt}}"/></span>
+        <span class="devices__img"><img class="devices__img--preview" ng-src="{{item.imgSrc}}" alt="{{item.imgAlt}}"/></span>
         <span class="devices__name">{{item.text}}</span>
       </a>
     </div>
