@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://service-iphone.com.ua/sitemap.xml

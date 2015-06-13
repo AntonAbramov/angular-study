@@ -2,134 +2,134 @@ angular.module('app')
   .controller('DeviceController', ['$scope', function ($scope) {
     $scope.menuIphone = [
       {
-        'href': 'remont-iphone/iphone-3g',
+        'href': '/remont-iphone3g',
         'text': 'iPhone 3G и 3GS',
         'title': '',
         'imgSrc': 'img/iphone/iphone3s.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 3G'
       },
       {
-        'href': 'remont-iphone/iphone-4',
+        'href': '/remont-iphone4',
         'text': 'iPhone 4',
         'title': '',
         'imgSrc': 'img/iphone/iphone4.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 4'
       },
       {
-        'href': 'remont-iphone/iphone-4s',
+        'href': '/remont-iphone4s',
         'text': 'iPhone 4s',
         'title': '',
         'imgSrc': 'img/iphone/iphone4s.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 4S'
       },
       {
-        'href': 'remont-iphone/iphone-5',
+        'href': '/remont-iphone5',
         'text': 'iPhone 5',
         'title': '',
         'imgSrc': 'img/iphone/iphone5.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 5'
       },
       {
-        'href': 'remont-iphone/iphone-5c',
+        'href': '/remont-iphone-5c',
         'text': 'iPhone 5c',
         'title': '',
         'imgSrc': 'img/iphone/iphone5c.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 5C'
       },
       {
-        'href': 'remont-iphone/iphone-5s',
+        'href': '/remont-iphone-5s',
         'text': 'iPhone 5s',
         'title': '',
         'imgSrc': 'img/iphone/iphone5s.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 5S'
       },
       {
-        'href': 'remont-iphone/iphone-6',
+        'href': '/remont-iphone-6',
         'text': 'iPhone 6',
         'title': '',
         'imgSrc': 'img/iphone/iphone6.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 6'
       },
       {
-        'href': 'remont-iphone/iphone-6plus',
+        'href': '/remont-iphone-6plus',
         'text': 'iPhone 6 Plus',
         'title': '',
         'imgSrc': 'img/iphone/iphone6plus.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт Iphone 6 Plus'
       }
     ];
     $scope.menuIpad = [
       {
-        'href': 'ipad-remont/ipad1',
+        'href': '/remont-ipad1',
         'text': 'iPad 1',
         'title': '',
         'imgSrc': 'img/ipad/ipad1.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iPad'
       },
       {
-        'href': 'ipad-remont/ipad2',
+        'href': '/remont-ipad2',
         'text': 'iPad 2',
         'title': '',
         'imgSrc': 'img/ipad/ipad2.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iPad 2'
       },
       {
-        'href': 'ipad-remont/ipad3',
+        'href': '/remont-ipad3',
         'text': 'iPad 3',
         'title': '',
         'imgSrc': 'img/ipad/ipad3.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iPad 3'
       },
       {
-        'href': 'ipad-remont/ipad4',
+        'href': '/remont-ipad4',
         'text': 'iPad 4',
         'title': '',
         'imgSrc': 'img/ipad/ipad4.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iPad 4'
       },
       {
-        'href': 'ipad-remont/ipad-mini',
+        'href': '/remont-ipad-mini',
         'text': 'iPad Mini',
         'title': '',
         'imgSrc': 'img/ipad/ipad_mini.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iPad mini retina'
       },
       {
-        'href': 'ipad-remont/ipad-mini2',
+        'href': '/remont-ipad-mini2',
         'text': 'iPad Mini2',
         'title': '',
         'imgSrc': 'img/ipad/ipad_mini2.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iPad mini2 retina'
       },
       {
-        'href': 'ipad-remont/ipad-air',
+        'href': '/remont-ipad-air',
         'text': 'iPad Air',
         'title': '',
         'imgSrc': 'img/ipad/ipad_air.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iPad'
       }
     ];
     $scope.menuMacbook = [
       {
-        'href': 'macbook-remont/macbook-pro',
+        'href': '/remont-macbook-pro',
         'text': 'MacBook Pro',
         'title': '',
         'imgSrc': 'img/macbook/pro.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт MacBook Pro'
       },
       {
-        'href': 'macbook-remont/macbook-air',
+        'href': '/remont-macbook-air',
         'text': 'MacBook Air',
         'title': '',
         'imgSrc': 'img/macbook/air.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт MacBook Air'
       },
       {
-        'href': 'macbook-remont/imac',
+        'href': '/remont-imac',
         'text': 'MacBook',
         'title': '',
         'imgSrc': 'img/macbook/mac.jpg',
-        'imgAlt': ''
+        'imgAlt': 'Ремонт iMac'
       }
     ];
     $scope.problemCases = [

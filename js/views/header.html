@@ -1,20 +1,19 @@
 <header class="header">
-  <div style="position: absolute; top:10px;right:20px; font-weight: bold; z-index:1; font-size: 13px; text-align: right; line-height: 15px;">Сайт еще в разработке <br/> не все разделы работают</div>
   <div class="container pt10 pb10">
-    <h1 class="site-logo col-md-2 col-xs-12 col-sm-4 mb0 mt0">
-      <a href="/"><img height="40" src="/img/logo.png" alt="service apple Kiev" /></a>
+    <div class="site-logo text-center col-md-2 col-xs-12 col-sm-4 mb0 mt0">
+      <a href="/"><img height="40" src="/img/logo.png" alt="Service-Iphone ремонт техники Apple iphone ipad macbook" /></a>
       <span class="site-logo__name"></span>
-    </h1>
+    </div>
     <nav class="top-navigation col-lg-4 col-md-5 col-sm-8 col-xs-12">
       <a ng-repeat="item in menuItems" ng-class="{'is-active' : item.selected}" class="top-navigation__link" href="{{item.href}}"><span
               class="top-navigation--text" title="{{item.title}}">{{item.text}}</span></a>
     </nav>
     <nav class="subnav cf col-lg-3 col-md-4 col-xs-12">
-      <a href="#/category/news/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
+      <a rel="nofollow" href="#/category/news/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
         <i class="fa fa-fw fa-file-text"></i>
         <span class="subnav__link--text">Новости</span>
       </a>
-      <a href="#/about/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
+      <a rel="nofollow" href="#/about/" class="subnav__link show-tablet col-md-6 col-xs-4 col-sm-3">
         <i class="fa fa-fw fa-building-o"></i>
         <span class="subnav__link--text">Компания</span>
       </a>
@@ -22,13 +21,13 @@
         <i class="fa fa-fw fa-comments"></i>
         <span class="subnav__link--text">Отзывы</span>
       </a>
-      <a href="#contacts" class="subnav__link col-md-6 col-xs-4 col-sm-3">
+      <a rel="nofollow" href="#contacts" class="subnav__link col-md-6 col-xs-4 col-sm-3">
         <i class="fa fa-fw fa-map-marker"></i>
         <span class="subnav__link--text">Контакты</span>
       </a>
     </nav>
     <div class="director-button col-md-2 col-xs-12 hidden-xs hidden-sm hidden-md">
-      <a href="#" class="btn btn-primary">Написать директору</a>
+      <a rel="nofollow" href="mailto:garckavcka2012@yandex.ua" class="btn btn-primary">Написать директору</a>
     </div>
   </div>
 </header>

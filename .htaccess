@@ -1,16 +1,14 @@
-# Change YOUR_TOKEN to your prerender token and uncomment that line if you want to cache urls and view crawl stats
-# Change http://example.com (at the end of the last RewriteRule) to your website url
+RewriteEngine On
 
 <IfModule mod_headers.c>
-    #RequestHeader set X-Prerender-Token "YOUR_TOKEN"
-   RequestHeader set X-Prerender-Token "ijgVvtzXpqnhvwra4ExZ"
+    RequestHeader set X-Prerender-Token "ijgVvtzXpqnhvwra4ExZ"
 </IfModule>
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
     <IfModule mod_proxy_http.c>
-        RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator [NC,OR]
+        RewriteCond %{HTTP_USER_AGENT} Googlebot|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator [NC,OR]
         RewriteCond %{QUERY_STRING} _escaped_fragment_
 
         # Only proxy the request to Prerender if it's a request for HTML
@@ -19,11 +17,12 @@
 </IfModule>
 
 
-#RewriteEngine On
-#Options FollowSymLinks
 
 RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /#/$1 [L]
+RewriteRule .* index.html [L]
+
