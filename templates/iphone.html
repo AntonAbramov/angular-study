@@ -6,10 +6,10 @@
   <p class="heading-title">Выберите модель:</p>
 
   <div class="devices">
-    <div ng-repeat="item in menuIphone" class="devices__item">
+    <div data-ng-repeat="item in menuIphone" class="devices__item">
       <a href="{{item.href}}" title="Ремонт {{item.text}} в Киеве" class="devices__link">
         <span class="devices__img">
-          <img class="devices__img--preview" ng-src="{{item.imgSrc}}" alt="{{item.imgAlt}}"/>
+          <img class="devices__img--preview" data-ng-src="{{item.imgSrc}}" alt="{{item.imgAlt}}"/>
         </span>
         <span class="devices__name">{{item.text}}</span>
       </a>
@@ -20,7 +20,7 @@
   <div class="container">
     <div class="heading-title mt20">Выберите проблему</div>
     <ul class="row problems">
-      <li ng-repeat="case in problemCases" class="col-md-4 col-lg-3 col-sm-6 problems__item">
+      <li data-ng-repeat="case in problemCases" class="col-md-4 col-lg-3 col-sm-6 problems__item">
         <a class="problems__link" title="{{case.text}}" href="{{case.href}}">
           <i class="{{case.iconName}} aa"></i>
           <span class="problems__text aus">
