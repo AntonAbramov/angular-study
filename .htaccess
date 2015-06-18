@@ -34,5 +34,4 @@ AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 
-# cache for 1 week
 Header set Cache-Control "max-age=604800, public"
