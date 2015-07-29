@@ -181,7 +181,7 @@ myApp.controller('DeviceController', ['$scope', function ($scope) {
         'iconName': 'icon-bell'
       },
       {
-        'href': 'icon-finger',
+        'href': 'ne-rabotaet-displey-iphone',
         'text': 'Не работает тачскрин',
         'title': '',
         'iconName': 'icon-finger'

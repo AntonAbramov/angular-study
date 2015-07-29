@@ -44,7 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="container">
     <div class="header-section__contacts left mr20">
       <div>
-        <a class="header-section__contacts__title" rel="nofollow" href="#contacts"><strong> м. Золотые
+        <a class="header-section__contacts__title" rel="nofollow" href="#contacts"><strong> м. Золотые3
           ворота</strong></a>
       </div>
       <div>
@@ -67,7 +67,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </strong>
     </div>
     <div class="header-section__courier left mr30">
-      <a rel="nofollow" href="mailto:garckavcka2012@yandex.ua" class="btn btn-default btn-lg show-desktop">
+      <a rel="nofollow" href="mailto:agsremont@gmail.com" class="btn btn-default btn-lg show-desktop">
         <i class="icon-running aa"></i>
         Вызвать курьера
       </a>
@@ -113,10 +113,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           Сервисный центр
           <a href="http://service-iphone.com.ua/">проекта Service Apple</a>
         </p>
-        <hr/>
+        <!--<hr/>
         <p>
           <a rel="nofollow" href="http://service-iphone.com.ua/about/job"><b>Наши вакансии</b></a>
-        </p>
+        </p>-->
       </div>
       <div class="col-md-8 col-sm12 text-center">
         <nav>
@@ -138,7 +138,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
 <script src="app.js"></script>
 <script>
-  function initialize(){var e=new google.maps.LatLng(50.446805,30.510911),o={center:e,zoom:17,mapTypeId:google.maps.MapTypeId.ROADMAP},a=new google.maps.Map(document.getElementById("googleMap"),o),n=new google.maps.Marker({position:e});n.setMap(a);var p=new google.maps.InfoWindow({content:"Service Apple <br> Ремонт любой сложности техники Apple <br>(096) 1253246<br>(093) 7229156<br>(066) 5669752"});google.maps.event.addListener(n,"click",function(){p.open(a,n)})}function loadScript(){var e=document.createElement("script");e.type="text/javascript",e.src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&callback=initialize",document.body.appendChild(e)}window.onload=loadScript;
+  function initialize() {
+    var e = new google.maps.LatLng(50.446805, 30.510911), o = {center: e, scrollwheel: false, zoom: 17, mapTypeId: google.maps.MapTypeId.ROADMAP}, a = new google.maps.Map(document.getElementById("googleMap"), o), n = new google.maps.Marker({position: e});
+    n.setMap(a);
+    var p = new google.maps.InfoWindow({content: "Service Apple <br> Ремонт любой сложности техники Apple <br>(096) 1253246<br>(093) 7229156<br>(066) 5669752"});
+    google.maps.event.addListener(n, "click", function () {
+      p.open(a, n)
+    })
+  }
+  function loadScript() {
+    var e = document.createElement("script");
+    e.type = "text/javascript", e.src = "https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&callback=initialize", document.body.appendChild(e)
+  }
+  window.onload = loadScript;
 </script>
 
 </body>
