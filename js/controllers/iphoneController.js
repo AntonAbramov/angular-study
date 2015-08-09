@@ -277,19 +277,19 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена аккумулятора',
             'repear_time': '5 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Ваш аккумулятор все чаще приходится заряжать и он быстрее садится? Новый аккумулятор решит все проблемы!'
           },
           {
             'title': 'Замена вибро-мотора',
             'repear_time': '10 мин.',
-            'cost': Math.round($scope.dollar.value * 9.52)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
             'description': 'Вибромотор от падений может начать барахлить, звенеть или вообще перестать работать. Его замена на телефоне: айфон 4 занимает довольно мало времени.'
           },
           {
             'title': 'Замена задней камеры',
             'repear_time': '10 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Задняя камера iPhone может выдавать плохое изображение или вообще не запускаться, в этом случае, мы заменим её на новую.'
           },
           {
@@ -301,19 +301,19 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Ремонт модуля Wi-Fi',
             'repear_time': '3-4 часа.',
-            'cost': Math.round($scope.dollar.value * 30.95)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 42.85)*10 + ' грн.',
             'description': 'Требуется провести замену модуля на айфон 4g, если переключатель WiFi стал серого цвета.'
           },
           {
             'title': 'Замена модемной части аппарата',
             'repear_time': '3-4 часа.',
-            'cost': Math.round($scope.dollar.value * 40.47)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 42.85)*10 + ' грн.',
             'description': 'Телефон постояно ищет сеть.'
           },
           {
             'title': 'Замена кнопок громкости',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Невозможность убавить или прибавить звук на айфон с 4, приводит к тому, что вы не слышите звука при исправном динамике. Достаточно просто заменить кнопки громкости iPhone и все заработает.'
           }
         ]
@@ -330,13 +330,13 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена переключателя вибро',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Рычажок вибрации может выйти из строя и тогда вы не сможете включить или выключить беззвучный режим на iphone 4 8gb, 16gb, 32gb, 64gb.'
           },
           {
             'title': 'Замена кнопки включения/блокировки',
             'repear_time': '30 мин',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Кнопка включения не нажимается? Это часто приводит к проблеме, что вы не можете включить iPhone. Мы заменим кнопку Power на iPhone в кратчайшие сроки.'
           }
         ]
@@ -347,7 +347,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена шлейфа кнопки Home',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 9.52)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
             'description': 'Самая главная кнопка в телефоне iPhone 4 g – это кнопка Home, которая находится под дисплеем. Она чаще других ломается и при ремонте необходимо менять данный шлейф.'
           },
           {
@@ -359,13 +359,13 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена разъёма синхронизации и зарядки ',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Проблемы связанные с зарядкой или подключением к компьютеру iPhone чаще всего решаются заменой нижнего шлейфа.'
           },
           {
             'title': 'Замена разъёма для наушников (аудиоджека) ',
             'repear_time': '35 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Если в iPhone не работает разъем наушником или не нажимаются кнопки громкости, то необходимо проверить аудиошлейф.'
           }
         ]
@@ -382,7 +382,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена микросхемы Wi-Fi',
             'repear_time': '3-4 часа.',
-            'cost': Math.round($scope.dollar.value * 40.47)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 42.85)*10 + ' грн.',
             'description': 'Требуется провести замену модуля, если переключатель WiFi стал серого цвета.'
           },
           {
@@ -496,13 +496,13 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена полифонического динамика (buzzer)',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Ремонт iphone 4 s. Нижний динамик в iPhone 4S только один (справа от разъема), он должен работать на громкой связи, в играх, музыке и видео.'
           },
           {
             'title': 'Замена микрофона',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Нижний микрофон находится под левой сеточкой (многие думают, что там динамик)'
           },
           {
@@ -514,13 +514,13 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена аккумулятора',
             'repear_time': '5 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Со временем, аккумулятор в iPhone 4S все меньше держит заряд, но его без проблем можно заменить и он будет работать как новый.'
           },
           {
             'title': 'Замена вибромотора',
             'repear_time': '15 мин.',
-            'cost': Math.round($scope.dollar.value * 9.52)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
             'description': 'Если у Вас не работает вибрация или вибромотор барахлит, то его можно заменить.'
           },
           {
@@ -538,7 +538,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Ремонт/замена датчика света и приближения',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Этот датчик выключает экран Айфон 4 S, когда вы прикладываете аппарат к уху во время разговора и не дает случайно нажиматься кнопкам.'
           },
           {
@@ -567,7 +567,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена шлейфа кнопки Home',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
             'description': 'Самая главная кнопка в телефоне iPhone – это кнопка Home, которая находится под дисплеем. Она чаще других ломается и при ремонте необходимо менять данный шлейф.'
           },
           {
@@ -585,7 +585,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена аудиошлейфа',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'Если в iPhone 4S не работает разъем наушников или не нажимаются кнопки громкости, то необходимо проверить аудиошлейф.'
           }
         ]
@@ -699,7 +699,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена стекла дисплея (модуль)',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 52.38)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 71.42)*10 + ' грн.',
             'description': 'Установка оригинального дисплейного модул (замена дисплея iphone 5) я с олеофобным покрытием.'
           },
           {
@@ -793,19 +793,19 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена задней камеры',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 19.04)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 21.42)*10 + ' грн.',
             'description': 'При проблемах с задней камерой айфона 5, таких как низкое качество изображение или его отсутствие следует заменить камеру.'
           },
           {
             'title': 'Замена передней камеры',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 17.85)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 19.04)*10 + ' грн.',
             'description': 'Если Вы не можете настроить фокус или у Вас низкое качество изображения, Вам нужно заменить камеру.'
           },
           {
             'title': 'Замена датчиков света/затемнения',
             'repear_time': '45 мин.',
-            'cost': Math.round($scope.dollar.value * 17.85)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 19.04)*10 + ' грн.',
             'description': 'Если во время звонка Ваше ухо произвольно нажимает на кнопки и iPhone 5 не блокируется, значит проблема в датчике.'
           },
           {
@@ -840,7 +840,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена шлейфа кнопки Home',
             'repear_time': '40 мин.',
-            'cost': Math.round($scope.dollar.value * 14.28)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'За работу кнопки Home отвечает шлейф кнопки Home.'
           }
         ]
@@ -875,7 +875,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена микросхемы контролер питания',
             'repear_time': '3-5 часов.',
-            'cost': Math.round($scope.dollar.value * 54.76)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 52.38)*10 + ' грн.',
             'description': ''
           },
           {
@@ -954,7 +954,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена стекла и дисплея (модулем)',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 52.38)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 71.42)*10 + ' грн.',
             'description': 'Дисплейный модуль меняется, если не работает дисплей или разбито стекло.'
           },
           {
@@ -977,7 +977,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена кнопки Home',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 9.52)*10 + ' грн.',
             'description': 'Если у Вас через раз срабатывает кнопка Home или залипает, то наши мастера в кратчайшие сроки устранят эту проблему.'
           },
           {
@@ -1014,7 +1014,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена микрофона',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 19.04)*10 + ' грн.',
             'description': 'Если Вас не слышат, значит скорее всего проблема в нижнем микрофоне.'
           },
           {
@@ -1032,13 +1032,13 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена вибро-мотора',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 9.52)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
             'description': 'Если iPhone 5C перестал вибрировать, возможно вышел из строя вибро-мотор или кнопка вибрации.'
           },
           {
             'title': 'Замена задней камеры',
             'repear_time': '15 мин.',
-            'cost': Math.round($scope.dollar.value * 19.04)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 21.42)*10 + ' грн.',
             'description': 'При проблемах с задней камерой iPhone 5С, таких как низкое качество изображение или его отсутствие, следует заменить камеру.'
           },
           {
@@ -1073,7 +1073,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена шлейфа кнопки Home',
             'repear_time': '60 мин.',
-            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 16.66)*10 + ' грн.',
             'description': 'За работу кнопки Home отвечает шлейф кнопки Home'
           },
           {
@@ -1163,7 +1163,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена стекла и дисплея(модуль)',
             'repear_time': 'от 25 мин.',
-            'cost': Math.round($scope.dollar.value * 52.38)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 71.42)*10 + ' грн.',
             'description': 'Дисплейный модуль меняется, если не работает дисплей или разбито стекло.'
           },
           {
@@ -1186,7 +1186,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена кнопки Home',
             'repear_time': '25 мин.',
-            'cost': Math.round($scope.dollar.value * 11.90)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 23.80)*10 + ' грн.',
             'description': 'Время от времени кнопка Home начинает залипать или полностью выходит из строя.'
           },
           {
@@ -1366,7 +1366,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена стекла и дисплея(модуль)',
             'repear_time': '40 мин.',
-            'cost': Math.round($scope.dollar.value * 166.66)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 133.33)*10 + ' грн.',
             'description': 'Дисплейный модуль меняется, если не работает дисплей или разбито стекло.'
           },
           {
@@ -1432,19 +1432,19 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена задней камеры',
             'repear_time': '20 мин.',
-            'cost': Math.round($scope.dollar.value * 33.33)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 35.71)*10 + ' грн.',
             'description': 'Если Вы не можете настроить фокус или у Вас низкое качество изображения, Вам нужно заменить камеру.'
           },
           {
             'title': 'Замена передней камеры',
             'repear_time': '30 мин.',
-            'cost': Math.round($scope.dollar.value * 26.19)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 33.33)*10 + ' грн.',
             'description': 'Если Вы не можете настроить фокус или у Вас низкое качество изображения, Вам нужно заменить камеру.'
           },
           {
             'title': 'Замена датчиков света/затемнения',
             'repear_time': '40 мин.',
-            'cost': Math.round($scope.dollar.value * 26.19)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 33.33)*10 + ' грн.',
             'description': 'Если во время звонка Ваше ухо произвольно нажимает на кнопки и iPhone 6 не блокируется, значит проблема в датчике.'
           },
           {
@@ -1479,7 +1479,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена шлейфа разьема синхронизации и зарядки',
             'repear_time': '45 мин.',
-            'cost': Math.round($scope.dollar.value * 28.57)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 30.95)*10 + ' грн.',
             'description': 'На нижнем шлейфе расположен разъем для зарядки и наушников, а также нижний микрофон.'
           }
         ]
@@ -1533,19 +1533,19 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена стекла и дисплея(модуль)',
             'repear_time': '40 мин.',
-            'cost': Math.round($scope.dollar.value * 333)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 238)*10 + ' грн.',
             'description': 'Дисплейный модуль меняется, если не работает дисплей или разбито стекло.'
           },
           {
             'title': 'Замена стекла',
             'repear_time': 'от 2 часов.',
-            'cost': Math.round($scope.dollar.value * 119)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 120)*10 + ' грн.',
             'description': 'Дисплейный модуль меняется, если не работает дисплей или разбито стекло.'
           },
           {
             'title': 'Замена корпуса',
             'repear_time': '60 мин.',
-            'cost': Math.round($scope.dollar.value * 285)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 238)*10 + ' грн.',
             'description': 'Если у Вас гнутый корпус или много царапин, нужно будет заменить корпус.'
           }
         ]
@@ -1556,13 +1556,13 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена кнопки Home',
             'repear_time': '35 мин.',
-            'cost': Math.round($scope.dollar.value * 40.47)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 41.66)*10 + ' грн.',
             'description': 'Время от времени кнопка Home начинает залипать или полностью выходит из строя.'
           },
           {
             'title': 'Замена переключателя вибро',
             'repear_time': '45 мин.',
-            'cost': Math.round($scope.dollar.value * 35.71)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 28.57)*10 + ' грн.',
             'description': 'Основные признаки неполадки кнопки вибрации iPhone 6 plus : невозможно отключить звук, кнопка расшаталась или запала, произвольно включается и отключается звук.'
           },
           {
@@ -1574,7 +1574,7 @@ angular.module('app').controller('iphone3gController', ['$scope', '$rootScope', 
           {
             'title': 'Замена кнопки включения/блокировки',
             'repear_time': '45 мин.',
-            'cost': Math.round($scope.dollar.value * 59.52)*10 + ' грн.',
+            'cost': Math.round($scope.dollar.value * 35.71)*10 + ' грн.',
             'description': 'Чаще всего выходит из строя кнопка включения у iPhone 6 plus.'
           }
         ]

@@ -77,6 +77,10 @@ myApp.config(['$routeProvider', 'MetaTagsProvider', '$locationProvider', functio
       controller: 'ipadAirController',
       templateUrl: '/templates/ipad/ipadair.html'
     })
+    .when('/remont-ipad-air2', {
+      controller: 'ipadAirController',
+      templateUrl: '/templates/ipad/ipadair2.html'
+    })
     .when('/remont-ipad-mini', {
       'url': '/ipad-remont/ipad-mini',
       controller: 'ipadMiniController',
@@ -85,6 +89,10 @@ myApp.config(['$routeProvider', 'MetaTagsProvider', '$locationProvider', functio
     .when('/remont-ipad-mini2', {
       controller: 'ipadMini2Controller',
       templateUrl: '/templates/ipad/ipadmini2.html'
+    })
+    .when('/remont-ipad-mini3', {
+      controller: 'ipadMini3Controller',
+      templateUrl: '/templates/ipad/ipadmini3.html'
     })
     .when('/remont-imac', {
       controller: 'imacController',
@@ -272,6 +280,12 @@ myApp.config(['$routeProvider', 'MetaTagsProvider', '$locationProvider', functio
       robots: "index, follow",
       keywords: "Ремонт iPad air"
     })
+    .when('/remont-ipad-air2', {
+      title: "Ремонт iPad air 2",
+      description: "Самый лучший сервис по ремонту iPad air 2 в городе Киеве - Service-iPhone, цены на ремонт вашего iPad Air 2.",
+      robots: "index, follow",
+      keywords: "Ремонт iPad Air 2"
+    })
     .when('/remont-ipad-mini', {
       title: "Ремонт iPad mini",
       description: "Ремонт iPad mini в Киеве. Профессиональный ремонт iPad mini с гарантией до 2х лет. Только original запчасти.",
@@ -284,11 +298,17 @@ myApp.config(['$routeProvider', 'MetaTagsProvider', '$locationProvider', functio
       robots: "index, follow",
       keywords: "Ремонт iPad mini2"
     })
-    .when('/remont-imac', {
-      title: "Ремонт iMac",
-      description: "Ремонт iMac в Киеве. Профессиональный ремонт iMac с гарантией до 2х лет. Только original запчасти.",
+    .when('/remont-ipad-mini3', {
+      title: "Ремонт iPad mini3",
+      description: "Ремонт iPad mini 3 в Киеве. Профессиональный ремонт iPad mini с гарантией до 2х лет. Цены на ремонт ipad mini 3.",
       robots: "index, follow",
-      keywords: "Ремонт imac"
+      keywords: "Ремонт iPad mini3"
+    })
+    .when('/remont-imac', {
+      title: "Ремонт MacBook",
+      description: "Ремонт MacBook в Киеве. Профессиональный ремонт MacBook с гарантией до 2х лет. Только original запчасти.",
+      robots: "index, follow",
+      keywords: "Ремонт MacBook"
     })
     .when('/remont-macbook-pro', {
       title: "Ремонт MacBook Pro",

@@ -59,13 +59,6 @@ myApp.controller('DeviceController', ['$scope', function ($scope) {
     ];
     $scope.menuIpad = [
       {
-        'href': '/remont-ipad1',
-        'text': 'iPad 1',
-        'title': '',
-        'imgSrc': 'img/ipad/ipad1.jpg',
-        'imgAlt': 'Ремонт iPad'
-      },
-      {
         'href': '/remont-ipad2',
         'text': 'iPad 2',
         'title': '',
@@ -101,11 +94,25 @@ myApp.controller('DeviceController', ['$scope', function ($scope) {
         'imgAlt': 'Ремонт iPad mini2 retina'
       },
       {
+        'href': '/remont-ipad-mini3',
+        'text': 'iPad Mini3',
+        'title': '',
+        'imgSrc': 'img/ipad/ipad-mini3.jpg',
+        'imgAlt': 'Ремонт iPad mini3 retina'
+      },
+      {
         'href': '/remont-ipad-air',
         'text': 'iPad Air',
         'title': '',
         'imgSrc': 'img/ipad/ipad_air.jpg',
-        'imgAlt': 'Ремонт iPad'
+        'imgAlt': 'Ремонт iPad Air'
+      },
+      {
+        'href': '/remont-ipad-air2',
+        'text': 'iPad Air 2',
+        'title': '',
+        'imgSrc': 'img/ipad/ipad-air2.jpg',
+        'imgAlt': 'Ремонт iPad Air 2'
       }
     ];
     $scope.menuMacbook = [
